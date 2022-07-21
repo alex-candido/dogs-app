@@ -15,7 +15,7 @@ const Login = () => {
         <Route path="resetar" element={<LoginPasswordReset />} />
       </Routes>
     </div>
-  )
-}
+  );
+};
 
 export default Login
