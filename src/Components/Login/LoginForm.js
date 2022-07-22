@@ -9,7 +9,7 @@ const LoginForm = () => {
   const username = useForm();
   const password = useForm();
 
-  const { userLogin } = React.useContext(UserContext);
+  const { userLogin, error, loading } = React.useContext(UserContext);
 
   async function handleSubmit(event) {
     event.preventDefault();
@@ -24,7 +24,7 @@ const LoginForm = () => {
       <h1>Login</h1>
       <form action="" onSubmit={handleSubmit}>
         <Input label="Usuário" type="text" name="username" {...username} />
-        <Input label="Senha" type="password" name="password" {...password} autoComplete="true"/>
+        <Input label="Senha" type="password" name="password" autoComplete="true" {...password} />
         <Button>Entrar</Button>
       </form>
       <Link to="/login/criar">Cadastro</Link>
