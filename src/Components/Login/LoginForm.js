@@ -24,7 +24,7 @@ const LoginForm = () => {
       <h1>Login</h1>
       <form action="" onSubmit={handleSubmit}>
         <Input label="Usuário" type="text" name="username" {...username} />
-        <Input label="Senha" type="password" name="password" {...password} />
+        <Input label="Senha" type="password" name="password" {...password} autoComplete="true"/>
         <Button>Entrar</Button>
       </form>
       <Link to="/login/criar">Cadastro</Link>
