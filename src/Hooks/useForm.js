@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const types = {
   email: {
@@ -29,15 +29,15 @@ const useForm = (type) => {
     if (error) validate(target.value);
     setValue(target.value);
   }
-  
+
   return {
     value,
-    setValue,
+    // setValue,
     onChange,
     error,
     validate: () => validate(value),
     onBlur: () => validate(value),
-  }
-}
+  };
+};
 
-export default useForm
+export default useForm;
