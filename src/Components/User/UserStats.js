@@ -2,7 +2,9 @@ import React from 'react'
 
 const UserStats = () => {
   return (
-    <div>UserStats</div>
+    <div>
+      Estatisticas
+    </div>
   )
 }
 
