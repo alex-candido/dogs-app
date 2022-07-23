@@ -15,8 +15,17 @@ const UserHeaderNav = () => {
 
   return (
     <> 
-      {mobile && <button aria-label="Menu" onClick={() => setMobileMenu(!mobileMenu)}></button>}
-      <nav className={styles.nav}>
+      {mobile && (
+      <button 
+      aria-label="Menu" 
+      className={`${styles.mobileButton} ${mobileMenu && styles.mobileButtonActive}`}
+      onClick={() => setMobileMenu(!mobileMenu)}
+      ></button>
+      )}
+      <nav className={`${mobile ? styles.navMobile : styles.nav} ${
+          mobileMenu && styles.navMobileActive
+        }`}
+        >
         <NavLink to="/conta" end className={({isActive}) => (isActive ? styles.active : 'none')}>
           <MinhasFotos />
           {mobile && 'Minhas Fotos'}
