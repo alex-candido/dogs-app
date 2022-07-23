@@ -10,6 +10,7 @@ const LoginCreate = () => {
 
   function handleSubmit(event) {
     event.preventDefault();
+    // const response = await fetch()
   }
 
   return (
