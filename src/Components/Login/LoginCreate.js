@@ -1,4 +1,5 @@
 import React from 'react'
+import { USER_POST } from '../../api';
 import useForm from '../../Hooks/useForm';
 import Button from '../Forms/Button';
 import Input from '../Forms/Input';
@@ -8,9 +9,15 @@ const LoginCreate = () => {
   const email = useForm('email');
   const password = useForm();
 
-  function handleSubmit(event) {
+  async function handleSubmit(event) {
     event.preventDefault();
-    // const response = await fetch()
+    const {url, options} = USER_POST({
+      username: username.value,
+      email: email.value,
+      password: password.value,
+    });
+    const response = await fetch(url, options);
+    console.log(response);
   }
 
   return (
