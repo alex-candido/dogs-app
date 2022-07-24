@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
 import styles from './UserPhotoPost.module.css';
 import useForm from '../../Hooks/useForm';
 import useFetch from '../../Hooks/useFetch';
 import Input from '../Forms/Input';
 import Button from '../Forms/Button';
+import Error from '../Helper/Error';
 import { PHOTO_POST } from '../../api';
 
 
@@ -48,7 +49,12 @@ const UserPhotoPost = () => {
           id="img"
           onChange={handleImgChange}
         />
-        <Button>Enviar</Button>
+        {loading ? (
+          <Button disabled>Enviando...</Button>
+        ) : (
+          <Button>Enviar</Button>
+        )}
+        <Error error={error} />
       </form>
       <div>
         {img.preview && (
