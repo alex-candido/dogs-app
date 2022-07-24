@@ -1,6 +1,8 @@
 import React from 'react'
 import { PHOTOS_GET } from '../../api';
 import useFetch from '../../Hooks/useFetch'
+import Error from '../Helper/Error';
+import Loading from '../Helper/Loading';
 import FeedPhotosItem from './FeedPhotosItem'
 
 const FeedPhotos = () => {
@@ -16,6 +18,8 @@ const FeedPhotos = () => {
     fetchPhotos();
   }, [request]);
 
+  if(error) return <Error error={error}/>
+  if(loading) return <Loading />
   return (
     <div>
       <FeedPhotosItem />
