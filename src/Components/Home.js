@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <section className="container mainContainer">
       <Loading />
-      {/* <Feed /> */}
+      <Feed />
     </section>
   )
 }
