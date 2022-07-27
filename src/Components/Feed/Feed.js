@@ -51,6 +51,10 @@ const Feed = ({ user }) => {
   )
 }
 
+Feed.defaultProps = {
+  user: 0,
+};
+
 Feed.propTypes = {
   user: PropTypes.oneOfType([
     PropTypes.string.isRequired,
