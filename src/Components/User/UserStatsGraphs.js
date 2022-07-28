@@ -22,15 +22,15 @@ const UserStatsGraphs = ({ data }) => {
     setGraph(graphData);
   },[data]);
 
-  return (
+    return (
     <section className={`${styles.graph} animeLeft`}>
-      <div className={styles.total}>
+      <div className={`${styles.total} ${styles.graphItem}`}>
         <p>Acessos: {total}</p>
       </div>
       <div className={styles.graphItem}>
-        <VictoryPie 
-          data={graph} 
-          innerRadius={50} 
+        <VictoryPie
+          data={graph}
+          innerRadius={50}
           padding={{ top: 20, bottom: 20, left: 80, right: 80 }}
           style={{
             data: {
@@ -51,7 +51,7 @@ const UserStatsGraphs = ({ data }) => {
         </VictoryChart>
       </div>
     </section>
-  )
+  );
 }
 
 export default UserStatsGraphs
