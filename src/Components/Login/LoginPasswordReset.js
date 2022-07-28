@@ -20,7 +20,7 @@ const LoginPasswordReset = () => {
     const key = params.get('key');
     const login = params.get('login');
     if (key) setKey(key);
-    if (login) setLogin(login); 
+    if (login) setLogin(login);
   }, []);
 
   async function handleSubmit(event) {
@@ -58,4 +58,4 @@ const LoginPasswordReset = () => {
   );
 };
 
-export default LoginPasswordReset
+export default LoginPasswordReset;
