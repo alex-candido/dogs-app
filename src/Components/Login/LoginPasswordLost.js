@@ -1,11 +1,11 @@
-import React from 'react'
-import { PASSWORD_LOST } from '../../api'
-import useFetch from '../../Hooks/useFetch'
-import useForm from '../../Hooks/useForm'
-import Button from '../Forms/Button'
-import Input from '../Forms/Input'
-import Error from '../Helper/Error'
-import Head from '../Helper/Head'
+import React from 'react';
+import Input from '../Forms/Input';
+import Button from '../Forms/Button';
+import useForm from '../../Hooks/useForm';
+import useFetch from '../../Hooks/useFetch';
+import { PASSWORD_LOST } from '../../api';
+import Error from '../Helper/Error';
+import Head from '../Helper/Head';
 
 const LoginPasswordLost = () => {
   const login = useForm();
@@ -39,9 +39,10 @@ const LoginPasswordLost = () => {
           )}
         </form>
       )}
+
       <Error error={error} />
     </section>
-  )
-}
+  );
+};
 
-export default LoginPasswordLost
+export default LoginPasswordLost;
