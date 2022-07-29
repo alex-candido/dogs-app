@@ -40,4 +40,4 @@ Abra [http://localhost:3000](http://localhost:3000) para visualizar no seu naveg
 <img src="/src/fotos/dogs-app.png" alt="layout">
 <img src="/src/fotos/dogs-web.png" alt="layout">
 
-Feito com 💙 por Alex Cândido [Linkedin](https://www.linkedin.com/in/alexcndd/)
+Feito por Alex Cândido [Linkedin](https://www.linkedin.com/in/alexcndd/)
