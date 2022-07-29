@@ -12,7 +12,7 @@ import NotFound from './Components/NotFound';
 
 
 function App() {
-  console.log('Alex Candido')
+  console.log('https://dogs-web.netlify.app')
   return (
       <div className="App">
         <BrowserRouter>
