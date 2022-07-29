@@ -12,6 +12,7 @@ import NotFound from './Components/NotFound';
 
 
 function App() {
+  console.log('Alex Candido')
   return (
       <div className="App">
         <BrowserRouter>
