@@ -1,8 +1,8 @@
-# 🐶 Dogs App
+# Dogs App
 
 ## 💻 Sobre
 
-Dogs é uma rede social para cachorros construída com React.js, com funcionalidades semelhantes ao instagram. A aplicação se baseia no consumo de uma API WordPress para criação de conta, autenticação, postagem de fotos, comentários etc.
+Dogs é uma rede social para cachorros construída com React.js, suas funcionalidades são semelhantes ao instagram. A aplicação se baseia no consumo de uma API WordPress para criação de conta, autenticação, postagem de fotos, comentários etc.
 
 ## 🎯 Funcionalidades
 
@@ -22,16 +22,16 @@ Dogs é uma rede social para cachorros construída com React.js, com funcionalid
 - React Router Dom
 - Lib Victory
 
-## ℹ️ Como utilizar
+## ▶️ Iniciando a aplicação
 
-Clone esse repositório
-$ git clone https://github.com/alex-candido/dogs-app.git
+     Clone esse repositório
+    $ git clone https://github.com/rafaasimi/Dogs-Origamid.git
 
-Instalar dependências
-$ npm install
+    Instalar dependências
+    $ npm install
 
-Inicie o projeto
-$ npm start
+    Inicie o projeto
+    $ npm start
 
 Abra [http://localhost:3000](http://localhost:3000) para visualizar no seu navegador
 
