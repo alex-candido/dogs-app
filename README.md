@@ -2,9 +2,9 @@
 
 ## 💻 Sobre
 
-Dogs é uma rede social para cachorros construída com React.js, suas funcionalidades são semelhantes ao instagram. A aplicação se baseia no consumo de uma API WordPress para criação de conta, autenticação, postagem de fotos, comentários etc.
+Dogs é uma rede social para cachorros construída com React.js, suas funcionalidades são semelhantes ao instagram. A aplicação se baseia no consumo de uma API WordPress para criação de conta, autenticação, postagem de fotos, comentários etc. Acesse o projeto clicando [aqui](https://dogs-web.netlify.app)
 
-## 🎯 Funcionalidades
+## 🚀 Funcionalidades
 
 - Cadastrar uma nova conta
 - Postagem de fotos
@@ -12,7 +12,7 @@ Dogs é uma rede social para cachorros construída com React.js, suas funcionali
 - Comentários
 - Relatório de acessos
 
-## 🚀 Foi utilizado
+## 📌 Foi utilizado
 
 - Hooks
 - Components
