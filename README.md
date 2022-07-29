@@ -1,20 +1,43 @@
-# Dogs App
+# 🐶 Dogs App
 
 ## 💻 Sobre
 
-# Getting Started with Create React App
+Dogs é uma rede social para cachorros construída com React.js, com funcionalidades semelhantes ao instagram. A aplicação se baseia no consumo de uma API WordPress para criação de conta, autenticação, postagem de fotos, comentários etc.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🎯 Funcionalidades
 
-## Available Scripts
+- Cadastrar uma nova conta
+- Postagem de fotos
+- Feed de fotos
+- Comentários
+- Relatório de acessos
 
-In the project directory, you can run:
+## 🚀 Foi utilizado
 
-### `npm start`
+- Hooks
+- Components
+- useContext
+- CSS modules
+- PropTypes
+- React Router Dom
+- Lib Victory
+
+## ℹ️ Como utilizar
+
+Clone esse repositório
+$ git clone https://github.com/alex-candido/dogs-app.git
+
+Instalar dependências
+$ npm install
+
+Inicie o projeto
+$ npm start
+
+Abra [http://localhost:3000](http://localhost:3000) para visualizar no seu navegador
 
 ## Layout
 
 <img src="/src/fotos/dogs-app.png" alt="layout">
+<img src="/src/fotos/dogs-web.png" alt="layout">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Feito com 💙 por Alex Cândido [Linkedin](https://www.linkedin.com/in/alexcndd/)
