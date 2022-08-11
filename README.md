@@ -24,19 +24,22 @@ Dogs é uma rede social para cachorros construída com React.js, suas funcionali
 
 ## ▶️ Iniciando a aplicação
 
-     Clone esse repositório
-    $ git clone https://github.com/rafaasimi/Dogs-Origamid.git
-
-    Instalar dependências
-    $ npm install
-
-    Inicie o projeto
-    $ npm start
-
+Clone esse repositório
+```
+$ git clone https://github.com/rafaasimi/Dogs-Origamid.git
+```
+Instalar dependências
+```
+$ npm install
+```
+Inicie o projeto
+```
+$ npm start
+```
 Abra [http://localhost:3000](http://localhost:3000) para visualizar no seu navegador
-
+```
 ## Layout
-
+```
 <img src="/src/fotos/dogs-app.png" alt="layout">
 <img src="/src/fotos/dogs-web.png" alt="layout">
 
