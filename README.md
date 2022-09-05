@@ -1,3 +1,5 @@
+<img alt="DogsApp" src="/src/assets/dogs-app.png" />
+
 # Dogs App
 
 ## 💻 Sobre
