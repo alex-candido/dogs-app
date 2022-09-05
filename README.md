@@ -1,4 +1,4 @@
-<img alt="DogsApp" src="/src/assets/dogs-app.png" />
+<img alt="DogsApp" src="/src/Assets/dogs-app.png" />
 
 # Dogs App
 
